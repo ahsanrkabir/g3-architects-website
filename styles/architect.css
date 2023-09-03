@@ -89,6 +89,58 @@ nav li a {
     width: 100%;
 }
 
+/* main section styles */
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* teams section */
+
+.teams-section {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.teams-content {
+    padding: 0 70px;
+}
+
+.teams-title {
+    font-size: 2.8rem;
+}
+
+.teams-title .grey {
+    color: #727272;
+    font-weight: 500;
+}
+
+.teams-title .black {
+    color: #131313;
+    font-weight: 700;
+}
+
+.teams-title .green {
+    color: #2a8a91;
+    font-weight: 700;
+}
+
+.teams-info {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 20px;
+}
+
 /* responsive media queries: mobile/smaller devices*/
 
 @media screen and (max-width: 576px) {
