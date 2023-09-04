@@ -113,7 +113,7 @@ main {
 }
 
 .teams-content {
-    padding: 0 100px;
+    padding: 0 auto;
 }
 
 .teams-title {
@@ -294,7 +294,6 @@ main {
     }
 
     .teams-title {
-        margin-top: 80px;
         text-align: center;
     }
 
