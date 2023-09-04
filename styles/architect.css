@@ -139,6 +139,61 @@ main {
     padding-top: 20px;
 }
 
+/* features-section styles */
+
+.features-section {
+    margin-top: 80px;
+    display: flex;
+    gap: 120px;
+}
+
+.features-title {
+    margin-bottom: 40px;
+    border-left: 5px solid #2a8a91;
+    padding-left: 20px;
+}
+
+.features-info {
+    margin-bottom: 60px;
+}
+
+.features-content .card {
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.features-content .card>h4 {
+    margin-bottom: 10px;
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.badge {
+    max-width: 340px;
+    color: #FFF;
+    background-color: #2a8a91;
+    border-radius: 4px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    right: 60px;
+}
+
+.badge h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.badge p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 /* facts section styles */
 
 .facts-section {
@@ -147,10 +202,6 @@ main {
 
 .facts-title {
     margin-bottom: 25px;
-}
-
-.facts-info {
-    margin-bottom: 80px;
 }
 
 .facts-card-container {
@@ -210,6 +261,7 @@ main {
 
     nav,
     .teams-section,
+    .features-section,
     .facts-card-container,
     .sponsors-img-container {
         flex-direction: column;
@@ -232,10 +284,6 @@ main {
         padding: 0;
     }
 
-    .facts-card-container {
-        padding: 0 20px;
-    }
-
     .btn-teams {
         margin: 50px 100px;
     }
@@ -249,12 +297,24 @@ main {
     }
 
     .teams-title,
-    .teams-info {
+    .teams-info,
+    .features-info {
         text-align: center;
+    }
+
+    .features-img img {
+        width: 100%;
+    }
+
+    .badge {
+        position: static;
+        max-width: 200px;
+        margin: 30px auto 0;
     }
 
     .facts-card-container {
         gap: 20px;
+        padding: 0 20px;
     }
 
     .facts-title,
@@ -272,6 +332,7 @@ main {
 
     nav,
     .teams-section,
+    .features-section,
     .sponsors-img-container {
         flex-direction: column;
     }
@@ -290,6 +351,7 @@ main {
     }
 
     .teams-content {
+        max-width: 851px;
         padding: 0;
     }
 
@@ -304,6 +366,16 @@ main {
 
     .btn-teams {
         margin: 50px 400px 50px 350px;
+    }
+
+    .features-img img {
+        width: 100%;
+    }
+
+    .badge {
+        position: static;
+        max-width: 500px;
+        margin: 30px auto 0;
     }
 
     .facts-title,
